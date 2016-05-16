@@ -1,3 +1,172 @@
-h1 {
-    color: red;
+*{
+        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.product{
+    padding: 0px 5px 5px 5px;
+    border-top: grey solid 1px;
+    border-radius: 0px 0px 5px 5px;   
+}
+
+.storage-product{
+    font-weight: normal;
+    display: inline-block;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    background: #E8E8E8;
+    color: grey;
+}
+
+.storage-product span{
+    margin-left: 10px;
+    border-radius: 25px;
+    min-width: 20px;
+    height: 17px;
+    text-align: center;
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+    padding-top: 3px;
+}
+
+button:disabled{
+    cursor: inherit;
+    opacity: 0.6;
+}
+
+.product > div{
+    padding: 10px ;
+    display: inline-block;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.products{
+    width: 60%;
+    min-width: 400px;
+}
+
+.product-title{
+    width: 40%;
+}
+
+.control{
+    text-align: right;
+    float: right;
+}
+
+body, .content {
+    background-color: #DADADA;
+}
+
+div {
+    background-color: white;
+}
+
+.content{
+    margin: 50px;
+}
+
+.content > div {
+    margin: 15px;
+    float: left;
+    border-radius: 5px;
+}
+
+.product-title {
+    float: left;
+}
+.add-product {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.add-product input {
+    width: calc(100% - 123px);
+    border-style: ridge;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+}
+
+#add-product {
+    background-color: #2185D0;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100px;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    margin-left: -5px;
+}
+
+button {
+    box-shadow: 0 2px  #888888;
+    cursor: pointer;
+}
+
+.decrease, .increase {
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.decrease{
+    background: red;
+}
+
+.increase{
+    background: green;
+}
+
+.quantity {
+    background-color: transparent;
+    margin-top: -5px;
+}
+
+.quantity span{
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    background: #E8E8E8;
+    min-width: 20px;
+}
+
+.control button {
+    height: 30px;
+    margin-top: -5px;
+    border-radius: 5px;
+}
+
+.buy{
+    font-size: 10px;
+    width: 80px;
+    color: grey;
+    background-color: #E8E8E8;
+}
+
+.remove {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30px;
+    background: red;
+}
+
+.storage > div{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+    padding: 0px 15px;
+}
+
+.storage {
+    width: 30%;
 }

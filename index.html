@@ -1,13 +1,66 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head lang="uk">
     <meta charset="UTF-8">
-    <title>My Page</title>
-
-
+    <title>My Shop</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="main.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<h1>Hello World</h1>
+<div class="content">    
+    <div class="products">
+        <div class="add-product">
+            <input type="text" placeholder="Назва товару"/>
+            <button id="add-product">Додати</button>
+        </div>
+        <div class="product">
+            <div class="product-title">Помідори</div>
+            <div class="quantity">
+                <button class="decrease" disabled>-</button>
+                <span>1</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="control">
+                <button class="buy">Куплено</button>
+                <button class="remove">x</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-title">Сир</div>
+            <div class="quantity">
+                <button class="decrease" disabled>-</button>
+                <span>1</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="control">
+                <button class="buy">Куплено</button>
+                <button class="remove">x</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-title">Печиво</div>
+            <div class="quantity">
+                <button class="decrease" disabled>-</button>
+                <span>1</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="control">
+                <button class="buy">Куплено</button>
+                <button class="remove">x</button>
+            </div>
+        </div>
+    </div>
+    <div class="storage">
+        <div>Залишилося</div>
+        <hr/>
+        <div class="in-storage"></div>
+        <hr/>
+        <div>Куплено</div>
+        <hr/>
+        <div class="sold"></div>
+    </div>
+</div>
 </body>
 </html>
